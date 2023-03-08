@@ -48,6 +48,8 @@ public class Ticket {
             }
         }while(!check);
 
+        scanner.close();
+
         final double priceForKm = 0.21;
         final double discountUnderage = 0.2;
         final double discountOver65 = 0.4;

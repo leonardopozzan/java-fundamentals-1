@@ -24,6 +24,8 @@ public class FizzBuzz {
             }
         }while(!check);
 
+        scanner.close();
+
         for (int i = 1; i <= number; i++) {
             if (i%3 == 0 && i%5==0){
                 System.out.println("FizzBuzz ");

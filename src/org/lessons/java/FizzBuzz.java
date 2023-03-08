@@ -11,7 +11,7 @@ public class FizzBuzz {
             String input = scanner.nextLine();
             try {
                 number = Integer.parseInt(input);
-                if(number >0 && number<=500){
+                if(number >0 && number<=999){
                     check =  true;
                 }else{
                     check =  false;
@@ -20,7 +20,7 @@ public class FizzBuzz {
                 check =  false;
             }
             if(!check){
-                System.out.println("Inserisci un numero maggiore di zero e minore di 500! Riprova");
+                System.out.println("Inserisci un numero maggiore di zero e minore di mille! Riprova");
             }
         }while(!check);
 
